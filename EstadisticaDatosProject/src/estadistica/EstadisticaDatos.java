@@ -19,6 +19,7 @@ public class EstadisticaDatos {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        /* Ingresar la ruta donde se encuentre los archivos para los cálculos respectivos */
         double[] datos = leerArchivo("D:\\DesarrolloWeb-SW\\Proyectos\\EstadisticaDatos\\ArchivosTXT\\datos-1000-20-10.txt");
         if (datos != null) {
             double media = calcularMedia(datos);
@@ -110,5 +111,4 @@ public class EstadisticaDatos {
             return "Sesgo cero";
         }
     }
-
 }
